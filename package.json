@@ -1,0 +1,38 @@
+{
+  "name": "asj-project-2a",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarno-yarva/asj-project-2b.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Yaroslav Yakovlev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yarno-yarva/asj-project-2b/issues"
+  },
+  "homepage": "https://github.com/yarno-yarva/asj-project-2b#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.6.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "core-js": "^3.21.0"
+  }
+}
